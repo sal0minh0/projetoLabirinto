@@ -1,28 +1,36 @@
-# Labirinto
+# Projeto Labirinto
 
-Este projeto foi desenvolvido como parte de um trabalho acadêmico sobre a implementação de um jogo de labirinto em Java. 
+Este projeto consiste na implementação de um jogo de labirinto em Java, onde os jogadores devem navegar por um labirinto gerado aleatoriamente, coletar tesouros escondidos e evitar perigos.
 
 ## Alunos
-- [Gregório de Albuquerque Borba Cavalcanti]
-- [Salomão de Moraes Cassiano Barbosa]
 
-## Descrição
-O objetivo deste projeto é criar um jogo de labirinto onde os jogadores devem navegar por um labirinto gerado aleatoriamente, coletando tesouros e evitando perigos.
+- Gregorio de Albuquerque Borba Cavalcanti
+- Salomão de Moraes Cassiano Barbosa
 
-## Funcionalidades
-- Geração aleatória de labirintos
-- Movimentação do jogador pelo labirinto
-- Coleta de tesouros
-- Evitar perigos
+## Requisitos do Projeto
 
-## Bibliotecas Utilizadas
+1. **Classes (10%):**
+   - Aventureiro
+   - Tesouro
+   - Perigo
+   - Labirinto
 
+2. **Coleções (10%):**
+   - Utilizar ArrayList para armazenar a lista de tesouros coletados pelo aventureiro, a estrutura do labirinto, a lista de tesouros e a lista de perigos no labirinto.
 
-## Classes Principais
-1. `Aventureiro`: Representa o jogador no jogo.
-2. `Tesouro`: Representa um tesouro que pode ser coletado pelo jogador.
-3. `Perigo`: Representa um perigo no labirinto que o jogador deve evitar.
-4. `Labirinto`: Representa o labirinto do jogo e contém a lógica principal.
+3. **Tratamento de Exceções (10%):**
+   - Implementar tratamento de exceções para garantir uma experiência de jogo suave.
 
+4. **Polimorfismo (5%):**
+   - Implementar polimorfismo na classe Tesouro.
 
+5. **Abstração (5%):**
+   - Cada classe representa uma entidade distinta (Aventureiro, Tesouro, Perigo, Labirinto) e cada método representa uma ação que pode ser realizada por essa entidade.
 
+## Funcionalidades Implementadas
+
+- Geração aleatória do labirinto.
+- Movimentação do aventureiro através do labirinto.
+- Coleta de tesouros pelo aventureiro.
+- Tratamento de exceções para movimentos inválidos e coleta de tesouros.
+- Diferentes tipos de tesouros com efeitos variados.
